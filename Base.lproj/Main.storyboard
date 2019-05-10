@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IamPoor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blue" translatesAutoresizingMaskIntoConstraints="NO" id="Dys-PD-gx7">
+                                <rect key="frame" x="0.0" y="0.0" width="422" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am Poor " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fpo-Qi-l8Z">
+                                <rect key="frame" x="136" y="70" width="143" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="143" id="KR3-v0-yV9"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="41" id="R7h-8L-eST"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please help by donating money" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LKt-WF-jVo">
+                                <rect key="frame" x="49" y="438" width="325" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="325" id="Zjb-Ae-QBS"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="29" id="mBj-FP-ya2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homeless" translatesAutoresizingMaskIntoConstraints="NO" id="kSM-oV-9Mw">
+                                <rect key="frame" x="87" y="270" width="244" height="153"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="244" id="LIn-71-6nT"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="153" id="h3M-cJ-bBm"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I have no money 💸" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6MV-ot-b8H">
+                                <rect key="frame" x="120" y="146" width="170" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="29" id="Rlg-QS-RZz"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="170" id="lTE-3Q-HLo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am Homeless" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vX9-Ly-1ft">
+                                <rect key="frame" x="131" y="207" width="129" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="29" id="h5O-lj-yu8"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="129" id="vbt-ie-u6j"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="So that I can buy Food " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JNG-qU-iVt">
+                                <rect key="frame" x="94" y="518" width="235" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="29" id="aDm-1n-Rib"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="235" id="brd-BW-B5V"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="4oi-c0-cG5">
+                                <rect key="frame" x="92" y="584" width="201" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="128" id="Dv1-XX-yM9"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="201" id="x9N-69-brt"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="4oi-c0-cG5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="92" id="3BO-p1-RVj"/>
+                            <constraint firstItem="fpo-Qi-l8Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="136" id="4Hs-Iz-v5L"/>
+                            <constraint firstItem="JNG-qU-iVt" firstAttribute="top" secondItem="LKt-WF-jVo" secondAttribute="bottom" constant="51" id="9bd-3P-bCA"/>
+                            <constraint firstItem="vX9-Ly-1ft" firstAttribute="top" secondItem="6MV-ot-b8H" secondAttribute="bottom" constant="32" id="CUb-kn-Buc"/>
+                            <constraint firstItem="fpo-Qi-l8Z" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="26" id="CmZ-xP-24t"/>
+                            <constraint firstItem="LKt-WF-jVo" firstAttribute="top" relation="greaterThanOrEqual" secondItem="kSM-oV-9Mw" secondAttribute="bottom" constant="15" id="EHh-46-dn9"/>
+                            <constraint firstItem="LKt-WF-jVo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="49" id="FI1-v2-UMH"/>
+                            <constraint firstItem="6MV-ot-b8H" firstAttribute="top" relation="greaterThanOrEqual" secondItem="fpo-Qi-l8Z" secondAttribute="bottom" constant="35" id="H3e-yt-WKp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6MV-ot-b8H" secondAttribute="trailing" constant="124" id="J4F-Bq-npA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JNG-qU-iVt" secondAttribute="trailing" constant="85" id="JWJ-gX-Iel"/>
+                            <constraint firstItem="kSM-oV-9Mw" firstAttribute="top" secondItem="vX9-Ly-1ft" secondAttribute="bottom" constant="34" id="NaM-fw-aZP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4oi-c0-cG5" secondAttribute="bottom" constant="150" id="Naz-kf-GzN"/>
+                            <constraint firstItem="JNG-qU-iVt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="94" id="PAs-N9-6Pw"/>
+                            <constraint firstItem="kSM-oV-9Mw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="UPS-9M-Rnx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fpo-Qi-l8Z" secondAttribute="trailing" constant="135" id="V1e-6f-6Gz"/>
+                            <constraint firstItem="4oi-c0-cG5" firstAttribute="top" relation="greaterThanOrEqual" secondItem="JNG-qU-iVt" secondAttribute="bottom" constant="37" id="hHb-9Z-p37"/>
+                            <constraint firstItem="vX9-Ly-1ft" firstAttribute="top" relation="greaterThanOrEqual" secondItem="6MV-ot-b8H" secondAttribute="bottom" constant="32" id="iFa-x8-7UC"/>
+                            <constraint firstItem="6MV-ot-b8H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="lTp-CS-bTS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kSM-oV-9Mw" secondAttribute="trailing" constant="83" id="lll-6h-C6Y"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4oi-c0-cG5" secondAttribute="trailing" constant="121" id="oW8-BM-gFp"/>
+                            <constraint firstItem="LKt-WF-jVo" firstAttribute="top" secondItem="kSM-oV-9Mw" secondAttribute="bottom" constant="15" id="oYe-RY-N0P"/>
+                            <constraint firstItem="kSM-oV-9Mw" firstAttribute="top" relation="greaterThanOrEqual" secondItem="vX9-Ly-1ft" secondAttribute="bottom" constant="34" id="pAe-al-xq9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vX9-Ly-1ft" secondAttribute="trailing" constant="154" id="pB1-i6-6CZ"/>
+                            <constraint firstItem="6MV-ot-b8H" firstAttribute="top" secondItem="fpo-Qi-l8Z" secondAttribute="bottom" constant="35" id="syy-Gl-8Mh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LKt-WF-jVo" secondAttribute="trailing" constant="40" id="wII-1f-f0x"/>
+                            <constraint firstItem="vX9-Ly-1ft" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="131" id="wfu-Fd-aRr"/>
+                            <constraint firstItem="JNG-qU-iVt" firstAttribute="top" relation="greaterThanOrEqual" secondItem="LKt-WF-jVo" secondAttribute="bottom" constant="51" id="yCz-YB-Rmv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="126.35467980295567"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="blue" width="75" height="75"/>
+        <image name="food" width="92.5" height="66.5"/>
+        <image name="homeless" width="66.5" height="66.5"/>
+    </resources>
+</document>
